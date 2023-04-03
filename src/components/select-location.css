@@ -5,3 +5,47 @@
   position: relative;
   width: 400px;
 }
+.select-location .expand-shrink-form {
+  cursor: pointer;
+}
+.select-location .expand-shrink-form--blue {
+  color: #0089d9;
+}
+.select-location .combobox-wrapper {
+  width: 250px;
+  margin-left: 40px;
+}
+.select-location .combobox {
+  border-radius: 5px;
+}
+.select-location .location-input {
+  position: relative;
+  margin-left: 40px;
+}
+.select-location svg {
+  margin: 0 1rem;
+}
+.select-location .clear-input-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+.select-location .clear-input-button.hide {
+  display: none;
+}
+.select-location .save-new-address-btn {
+  margin-top: 2em;
+}
